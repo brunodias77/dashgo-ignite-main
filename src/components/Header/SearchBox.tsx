@@ -7,7 +7,6 @@ export function SearchBox() {
   //debunce
   // uncrontrolled Components
   const searchInputRef = useRef<HTMLInputElement>(null);
-  console.log(searchInputRef.current.value);
 
   return (
     <Flex
